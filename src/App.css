@@ -1,0 +1,35 @@
+.app{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1px 1px 1px 1px;
+}
+.inputBox{
+    /* margin:75px 10px 75px 75px; */
+    padding: 25px 100px 25px 25px;
+    border: 5px solid pink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Lacquer', sans-serif;
+}
+.paragraph{
+    /* margin: 75px 75px 75px 10px; */
+    padding: 25px 25px 25px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    font-family: 'Lacquer', sans-serif;
+    color: 	#B22222;
+     -webkit-text-stroke: 1px black;
+}
+.header{
+    text-align:center;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 100px;
+}
+body{
+    background-image: url(https://i.pinimg.com/originals/2d/26/50/2d26504bfb91463399665325617c3136.gif)
+
+}
