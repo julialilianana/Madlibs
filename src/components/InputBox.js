@@ -12,41 +12,47 @@ class InputBox extends Component{
                             value={this.props.nounOne}
                             onChange={this.props.updateNounOne}
                             placeholder="Think Wacky!"
+                            style={{width: "250px"}}
                         />
                     </li>
                     <li>Noun (Plural): <br/>
                         <input
                             value={this.props.pluralNoun}
                             onChange={this.props.updatePluralNoun}
-                            placeholder="Think Wacky!"
+                            placeholder="Think Wackier!"
+                            style={{width: "250px"}}
                         />
                     </li>
                     <li>Noun: <br/>
                         <input
                             value={this.props.nounTwo}
                             onChange={this.props.updateNounTwo}
-                            placeholder="Think Wacky!"
+                            placeholder="Come On That's Not Wacky!"
+                            style={{width: "250px"}}
                         />
                     </li>
                     <li>Place: <br/>
                         <input
                             value={this.props.place}
                             onChange={this.props.updatePlace}
-                            placeholder="Think Wacky!"
+                            placeholder="NOW THATS Wacky!"
+                            style={{width: "250px"}}
                         />
                     </li>
                     <li>Adjective: <br/>
                         <input
                             value={this.props.adjective}
                             onChange={this.props.updateAdjective}
-                            placeholder="Think Wacky!"
+                            placeholder="NOW YOUR THINKING Wacky!"
+                            style={{width: "250px"}}
                         />
                     </li>
                     <li>Noun: <br/>
                         <input
                             value={this.props.nounThree}
                             onChange={this.props.updateNounThree}
-                            placeholder="Think Wacky!"
+                            placeholder="Save The Wackiest For LAst"
+                            style={{width: "250px"}}
                         />
                     </li>
                 </ol>
